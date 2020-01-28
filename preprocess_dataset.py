@@ -12,7 +12,6 @@ def preprocess_emoji(dset_path):
         code_vocaburary[data] = index
 
     print(code_vocaburary)
-    raise Exception('aaaaaa')
     
     # chack dataset path
     image_path = Path(dset_path)
