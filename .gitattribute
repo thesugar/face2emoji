@@ -1,0 +1,5 @@
+*.ipynb linguist-vendored  # vendored codeとして認識
+*.py linguist-vendored=false  # vendored codeから除外
+
+*.ipynb linguist-documentation  # documentationとして認識
+*.py linguist-documentation=false  # documentationから除外
